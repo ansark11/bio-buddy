@@ -46,6 +46,10 @@ export interface Document {
     lab_name?: string;
     test_date?: string;
     biomarker_count?: number;
+    first_date?: string;
+    last_date?: string;
+    days?: number;
+    breakdown?: Record<string, number>;
   };
 }
 
