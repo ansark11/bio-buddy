@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     gmail_token_file: str = ".gmail_token.json"
     lose_it_sender_email: str = ""
     scheduled_user_id: str = ""
+    cors_origins: str = "http://localhost:3000"
 
     class Config:
         env_file = ".env"
