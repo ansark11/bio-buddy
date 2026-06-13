@@ -85,7 +85,7 @@ export default function QuickLogCard() {
     return (
       <div className="bg-card rounded-xl border border-white/[0.08] px-5 py-3 flex items-center gap-3">
         <span className="w-2 h-2 rounded-full bg-ok shrink-0" />
-        <span className="text-sm text-muted">Today's log saved</span>
+        <span className="text-sm text-muted">Today&apos;s log saved</span>
         <button
           onClick={() => { setDone(false); setStep(0); }}
           className="ml-auto text-[11px] text-muted hover:text-ink transition-colors"
@@ -100,7 +100,7 @@ export default function QuickLogCard() {
     <div className="bg-card rounded-xl border border-white/[0.08] px-5 py-4">
       {/* Header */}
       <div className="flex items-center gap-3 mb-3">
-        <span className="text-[10px] font-semibold text-muted uppercase tracking-widest">Today's Log</span>
+        <span className="text-[10px] font-semibold text-muted uppercase tracking-widest">Today&apos;s Log</span>
         <div className="flex gap-1 ml-1">
           {STEPS.map((_, i) => (
             <button
