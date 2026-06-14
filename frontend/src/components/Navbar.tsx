@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className="bg-card border-b border-white/[0.08] px-6 py-3 flex items-center justify-between shrink-0">
       <div className="flex items-center gap-6">
-        <span className="font-heading font-semibold text-hblue text-lg tracking-tight">Health RAG</span>
+        <span className="font-heading font-semibold text-hblue text-lg tracking-tight">BioBuddy</span>
         <div className="flex gap-1">
           {navLinks.map((link) => (
             <Link

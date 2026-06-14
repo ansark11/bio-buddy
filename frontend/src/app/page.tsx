@@ -32,7 +32,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-page">
       <div className="bg-card border border-white/[0.08] rounded-xl p-8 w-full max-w-sm">
-        <h1 className="font-heading font-semibold text-2xl text-center text-ink mb-1">Health RAG</h1>
+        <h1 className="font-heading font-semibold text-2xl text-center text-ink mb-1">BioBuddy</h1>
         <p className="text-muted text-sm text-center mb-6">Your personal health knowledge base</p>
 
         <div className="flex rounded-lg overflow-hidden border border-white/[0.08] mb-6">
