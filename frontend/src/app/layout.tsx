@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Health RAG",
+  title: "BioBuddy",
   description: "Personal health knowledge base",
 };
 
