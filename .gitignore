@@ -15,3 +15,10 @@ frontend/.env.local
 
 # Build artifacts
 frontend/tsconfig.tsbuildinfo
+
+# Health data: real lab reports and extracted results never go in this public repo
+sample_reports/
+
+# Personal Claude files
+.claude/settings.local.json
+CLAUDE.local.md
